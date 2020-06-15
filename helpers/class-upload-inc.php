@@ -22,7 +22,7 @@
         * @param array $extensoesValidas
         */
 
-        public function uploadArquivoa($campo, $pastaDestino, $subistituir, $subistituir, $extensoesValidas="") {
+        public function uploadArquivoa($campo, $pastaDestino, $subistituir, $extensoesValidas="") {
             $this->campo = $campo;
             $this->pastaDestino = $pastaDestino;
             $this->subistituir = $subistituir;
