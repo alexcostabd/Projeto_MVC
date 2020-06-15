@@ -19,14 +19,14 @@ class ConexaoOracle
             $conn = new PDO("oci:dbname=//$host:$porta", $usuario, $senha);
        } 
         catch (PDOException $e) {
-            echo "Erro de Conexão " . $e->getMessage() . "<\br>";
+            echo "Erro de Conexão: " . $e->getMessage() . "<\br>";
             exit;
        }
 
        unset($conn);
     }
 
-    
+
 
     
 
