@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FABRICANTE" directorySegmentName="seg_0" id="24F43D99-0158-A639-6196-E1B6DCEA62F9">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:36:59 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<schemaObject>175AE000-0A7F-B91D-9B3B-71DA3E9A4DE7</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B69A9D45-6D5A-63F2-52DA-7C4C0AA3FE0A</segment>
+<tableSpace>8517EDDE-BBA9-BF5B-8066-DDF357B671F8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FAB_NOME" id="40D44C54-DBDE-639B-11EE-4BD7E48DD9D1">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAB_ID" id="EE1EC139-BC50-32C6-E996-7A407000B7B6">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FABRICANTE_PK" id="7F9F444A-7EC3-B49A-E549-254B75853707">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<schemaObject>175AE000-0A7F-B91D-9B3B-71DA3E9A4DE7</schemaObject>
+<segment>C1845642-633C-4A6B-7EF3-870F485EA994</segment>
+<tableSpace>8517EDDE-BBA9-BF5B-8066-DDF357B671F8</tableSpace>
+<indexSegment>C1845642-633C-4A6B-7EF3-870F485EA994</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="FABRICANTE_FAB_NOME_UN" id="F05F3BE9-F212-4802-BAA5-11A187DF5C8A">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<schemaObject>175AE000-0A7F-B91D-9B3B-71DA3E9A4DE7</schemaObject>
+<segment>C1845642-633C-4A6B-7EF3-870F485EA994</segment>
+<tableSpace>8517EDDE-BBA9-BF5B-8066-DDF357B671F8</tableSpace>
+<indexSegment>C1845642-633C-4A6B-7EF3-870F485EA994</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

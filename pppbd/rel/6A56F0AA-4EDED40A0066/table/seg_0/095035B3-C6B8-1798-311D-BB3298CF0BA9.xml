@@ -1,0 +1,216 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="095035B3-C6B8-1798-311D-BB3298CF0BA9" schemaObject="175AE000-0A7F-B91D-9B3B-71DA3E9A4DE7" name="PRODUTO">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>USER_MVC</sourceObjSchema>
+<sourceObjName>PRODUTO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FAB_ID" id="B7C363A3-98EB-C2E1-25A9-F183BF665F74">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO</sourceObjSchema>
+<sourceObjName>FAB_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AB109E9-DEB1-E490-8D89-FBC971068830" referredColumn="EE1EC139-BC50-32C6-E996-7A407000B7B6"/>
+</associations>
+</Column>
+<Column name="LIN_ID" id="2A5BDFF7-BB0C-EFB0-58FD-9F504048F671">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO</sourceObjSchema>
+<sourceObjName>LIN_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59573C5A-9D23-9536-9F1A-2EBC0E3557A3" referredColumn="7DB9EC14-4BC1-E462-A5D3-CCE8B48F523F"/>
+</associations>
+</Column>
+<Column name="PRO_ID" id="CBCCC2F9-56B2-C33D-E3AC-5F259AE56D75">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO</sourceObjSchema>
+<sourceObjName>PRO_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_NOME" id="F47D8D9A-203C-4CC1-50C4-332C391FB9C7">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO</sourceObjSchema>
+<sourceObjName>PRO_NOME</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_DESCRICAO" id="B3827AD9-BD21-E5D8-DC3A-7F965BC18BEB">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO</sourceObjSchema>
+<sourceObjName>PRO_DESCRICAO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_PRECOINICIAL" id="4C051C15-656C-F9C6-B673-40249F2FE02A">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO</sourceObjSchema>
+<sourceObjName>PRO_PRECOINICIAL</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_PESO" id="F612C22B-7B70-1B2A-BCDB-359B5A0C5841">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO</sourceObjSchema>
+<sourceObjName>PRO_PESO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_IMAGEM" id="E653F97F-4401-97AB-38EE-1468B8CBDCC2">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO</sourceObjSchema>
+<sourceObjName>PRO_IMAGEM</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_DESTAQUE" id="A7742836-EB0A-5DEA-CC90-D71D7E6F900F">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO</sourceObjSchema>
+<sourceObjName>PRO_DESTAQUE</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<constraintName>SYS_C007432</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_ESTOQUE" id="FD425E3C-178A-AE7A-3137-C3091B29B306">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO</sourceObjSchema>
+<sourceObjName>PRO_ESTOQUE</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18A0D8D9-6219-8D1E-350F-AD5DC75E2883" name="PF_PROD">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>USER_MVC</sourceObjSchema>
+<sourceObjName>PF_PROD</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBCCC2F9-56B2-C33D-E3AC-5F259AE56D75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3433793-502F-3C91-2086-D397D2E75E3A" schemaObject="175AE000-0A7F-B91D-9B3B-71DA3E9A4DE7" name="PF_PROD">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>USER_MVC</sourceObjSchema>
+<sourceObjName>PF_PROD</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBCCC2F9-56B2-C33D-E3AC-5F259AE56D75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E83792F-E951-BBFB-60FE-AEFA94CCB3D0" name="FK_PROD_FAB">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7C363A3-98EB-C2E1-25A9-F183BF665F74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B0ADE5C-7BF7-37E1-A4BA-527EF5F3452B" name="FK_PROD_LINHA">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A5BDFF7-BB0C-EFB0-58FD-9F504048F671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

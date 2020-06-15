@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USUARIO" directorySegmentName="seg_0" id="5D91ADD0-CD4B-C982-0317-81F6703599BC">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:50:49 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<schemaObject>175AE000-0A7F-B91D-9B3B-71DA3E9A4DE7</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B69A9D45-6D5A-63F2-52DA-7C4C0AA3FE0A</segment>
+<tableSpace>8517EDDE-BBA9-BF5B-8066-DDF357B671F8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USU_LOGIN" id="83D0C015-84FD-0F2E-F8D4-64CFA246D8EE">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:50:49 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USU_SENHA" id="E9EA340C-D089-4C3A-25D9-CF5427B91B84">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:50:49 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USUARIO_PK" id="02B537EC-ECA3-9D21-F0AA-C3A92E98B6D0">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:50:49 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<schemaObject>175AE000-0A7F-B91D-9B3B-71DA3E9A4DE7</schemaObject>
+<segment>C1845642-633C-4A6B-7EF3-870F485EA994</segment>
+<tableSpace>8517EDDE-BBA9-BF5B-8066-DDF357B671F8</tableSpace>
+<indexSegment>C1845642-633C-4A6B-7EF3-870F485EA994</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17CC5A7A-2AF9-5387-447C-5057B0A5C9BF" schemaObject="175AE000-0A7F-B91D-9B3B-71DA3E9A4DE7" name="PRODUTO_LINHA">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>USER_MVC</sourceObjSchema>
+<sourceObjName>PRODUTO_LINHA</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FAB_ID" id="03ACCFCA-E4FE-386B-DE85-2F3F52C99204">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO_LINHA</sourceObjSchema>
+<sourceObjName>FAB_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1A8EB28-837A-E65F-2477-41BBF4D0C6F8" referredColumn="EE1EC139-BC50-32C6-E996-7A407000B7B6"/>
+</associations>
+</Column>
+<Column name="LIN_ID" id="7DB9EC14-4BC1-E462-A5D3-CCE8B48F523F">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO_LINHA</sourceObjSchema>
+<sourceObjName>LIN_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIN_NOME" id="20BA729A-D8B8-2CE1-3F70-FA5F07110452">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>PRODUTO_LINHA</sourceObjSchema>
+<sourceObjName>LIN_NOME</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC670072-AA1E-B486-AFC2-628D131A3612" schemaObject="175AE000-0A7F-B91D-9B3B-71DA3E9A4DE7" name="PRODUTO_LINHA_PK">
+<sourceConnName>PROJETO_MVC</sourceConnName>
+<sourceObjSchema>USER_MVC</sourceObjSchema>
+<sourceObjName>SYS_C007412</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DB9EC14-4BC1-E462-A5D3-CCE8B48F523F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9DE728E-8B62-712F-110D-886169FEA766" name="FK_PROD_LIN">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03ACCFCA-E4FE-386B-DE85-2F3F52C99204"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

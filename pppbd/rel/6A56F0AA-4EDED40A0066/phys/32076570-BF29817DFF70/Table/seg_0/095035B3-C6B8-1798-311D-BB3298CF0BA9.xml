@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUTO" directorySegmentName="seg_0" id="095035B3-C6B8-1798-311D-BB3298CF0BA9">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<schemaObject>175AE000-0A7F-B91D-9B3B-71DA3E9A4DE7</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B69A9D45-6D5A-63F2-52DA-7C4C0AA3FE0A</segment>
+<tableSpace>8517EDDE-BBA9-BF5B-8066-DDF357B671F8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LIN_ID" id="2A5BDFF7-BB0C-EFB0-58FD-9F504048F671">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_PRECOINICIAL" id="4C051C15-656C-F9C6-B673-40249F2FE02A">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_DESTAQUE" id="A7742836-EB0A-5DEA-CC90-D71D7E6F900F">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_DESCRICAO" id="B3827AD9-BD21-E5D8-DC3A-7F965BC18BEB">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAB_ID" id="B7C363A3-98EB-C2E1-25A9-F183BF665F74">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_ID" id="CBCCC2F9-56B2-C33D-E3AC-5F259AE56D75">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_IMAGEM" id="E653F97F-4401-97AB-38EE-1468B8CBDCC2">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_NOME" id="F47D8D9A-203C-4CC1-50C4-332C391FB9C7">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_PESO" id="F612C22B-7B70-1B2A-BCDB-359B5A0C5841">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_ESTOQUE" id="FD425E3C-178A-AE7A-3137-C3091B29B306">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PF_PROD" id="E3433793-502F-3C91-2086-D397D2E75E3A">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<schemaObject>175AE000-0A7F-B91D-9B3B-71DA3E9A4DE7</schemaObject>
+<segment>C1845642-633C-4A6B-7EF3-870F485EA994</segment>
+<tableSpace>8517EDDE-BBA9-BF5B-8066-DDF357B671F8</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PROD_FAB" id="3E83792F-E951-BBFB-60FE-AEFA94CCB3D0">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PROD_LINHA" id="6B0ADE5C-7BF7-37E1-A4BA-527EF5F3452B">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000022008C00008$$" id="19F43B1F-5B45-40A4-63BB-0B542686C543">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>PRO_IMAGEM</column>
+<logging>YES</logging>
+<tableSpace>8517EDDE-BBA9-BF5B-8066-DDF357B671F8</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PF_PROD" id="18A0D8D9-6219-8D1E-350F-AD5DC75E2883">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-14 22:37:00 UTC</createdTime>
+<ownerDesignName>pppbd</ownerDesignName>
+<segment>C1845642-633C-4A6B-7EF3-870F485EA994</segment>
+<tableSpace>8517EDDE-BBA9-BF5B-8066-DDF357B671F8</tableSpace>
+<existingIndex>E3433793-502F-3C91-2086-D397D2E75E3A</existingIndex>
+<indexSegment>C1845642-633C-4A6B-7EF3-870F485EA994</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
