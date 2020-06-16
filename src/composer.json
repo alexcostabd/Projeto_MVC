@@ -1,0 +1,14 @@
+{
+    "name": "projeto/mvc",
+    "description": "MVC completo em php",
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    },
+
+    "autoload" :{
+        "psr-4" : {
+            "App\\" : "../app/",
+            "Src\\" : "../src/"
+        }
+    }
+}
